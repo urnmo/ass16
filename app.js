@@ -124,6 +124,10 @@ function reveals the hangman graphic
  */
 
 function graphic(endGame){
-console.log (pickword(wordsWordsWords));
+
 }
 
+addEventListener(load, function(){
+    pickword(wordsWordsWords);
+    console.log (pickword(wordsWordsWords));
+});
